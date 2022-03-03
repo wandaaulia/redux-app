@@ -1,0 +1,103 @@
+import image1 from './img/cookies-svgrepo-com.svg';
+
+const data = [
+    {
+        id:1,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'chocolate',
+        quantity: 1,
+        price: 8,
+        category: 'best',
+    },
+      {
+        id:2,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'choco chips',
+        quantity: 1,
+        price:6,
+        category: 'best',
+    },
+    {
+        id:3,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'red velvet',
+        quantity: 1,
+        price:12,
+        category: 'best',
+    },
+    {
+        id:4,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'coffee',
+        quantity: 1,
+        price:4,
+        category: 'best',
+    },
+    {
+        id:5,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'mocca',
+        quantity: 1,
+        price:12,
+        category: 'best',
+    },
+    {
+        id:6,
+        img: './img/cookies-svgrepo-com.svg',
+        name:'cheese',
+        quantity: 1,
+        price:4,
+        category: 'best',
+    },
+      {
+        id:7,
+        img: './img/undraw_cup_of_tea_6nqg.svg',
+        name:' lemon tea',
+        quantity: 1,
+        price: 5,
+        category: 'new',
+    },
+      {
+        id:8,
+        img: './img/undraw_cup_of_tea_6nqg (1).svg',
+        name:'berry tea',
+        quantity: 1,
+        price: 7,
+        category: 'new',
+    },
+    {
+        id:9,
+        img: './img/undraw_cup_of_tea_6nqg.svg',
+        name:'vanilla tea',
+        quantity: 1,
+        price:4,
+        category: 'new',
+    },
+    {
+        id:10,
+        img: './img/undraw_cup_of_tea_6nqg (2).svg',
+        name:'mint tea',
+        quantity: 1,
+        price:6,
+        category: 'new',
+    },
+      {
+        id:11,
+        img: './img/undraw_cup_of_tea_6nqg (4).svg',
+        name:'green tea',
+        quantity: 1,
+        price:6,
+        category: 'new',
+    },
+    {
+        id:12,
+        img: './img/undraw_cup_of_tea_6nqg (5).svg',
+        name:'black tea',
+        quantity: 1,
+        price:6,
+        category: 'new',
+    },
+
+];
+
+export default data;

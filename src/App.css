@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -7,9 +14,150 @@
   pointer-events: none;
 }
 
+.list {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.text-custom {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  height: 35vh;
+}
+
+.btn-more {
+  border-radius: 13px;
+  padding: 5px 20px;
+}
+
+.hitam {
+  color: black;
+}
+
+/* .badgee { 
+  left:90%;
+} */
+
+.pointer { 
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    height:55vh;
+    padding:0;
+  }
+  .badgee {
+    left: 20%;
+  }
+  
+
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    height:65vh;
+    padding:0;
+  }
+
+  .badgee {
+    left: 20%;
+  }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+  .navlink {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+  }
+
+  .gambar-popular {
+    width: 55%;
+    height: 40%;
+  }
+
+  .footer {
+    height:35vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 40px;
+  }
+
+  .footer-item-left {
+      width: 35%;
+      display: inline;
+  }
+
+  .footer-item-right {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .padding-lf {
+    width: 70%;
+  }
+
+  .header-center {
+    text-align: center; 
+  }
+
+  .badgee {
+    left: 82%;
+  }
+
+  .cart-size {
+    width: 50%;
+  }
+
+  .button-checkout {
+    width: 50%;
+  }
+
+  .button-checkout-size {
+    width: 20%;
+  }
+
+  .total-size {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width:990px) {
+  .badgee {
+    left: 35%;
+  }
+
+  .cart-size {
+    width: 60%;
+  }
+
+  .button-checkout {
+    width: 60%;
+  }
+
+  .button-checkout-size {
+    width: 30%;
+  }
+
+  .total-size {
+    width: 60%;
   }
 }
 
@@ -27,6 +175,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
