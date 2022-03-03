@@ -14,7 +14,7 @@ const Content = () => {
     return ( 
         <>
 
-   <div className="row mt-5  justify-content-center m-lg-5 p-lg-4 mb-lg-0">
+   <div className="row mt-5 content-css p-sm-3 justify-content-center p-lg-4 mb-lg-0">
             <div className="h4"> <span className="text-warning"> Best </span> seller </div>
 
           <div className="row w-90 pb-1 pb-lg-0 p-5 p-lg-5 gap-sm-2 gap-lg-1 gap-md-2 justify-content-center ">     
@@ -30,7 +30,7 @@ const Content = () => {
                 <div className="card-body mt-0">
                 <img src={img}  width="50" className="gambar-product"/>            
                 <p className="mb-1 pt-3"> {name} </p>
-                <p className="text-custom mb-1 fw-bolder"> ${price}  </p>
+                <p className="text-custom mb-1 fw-bolder"> ${price} <span className="text-muted small"> / pcs </span>  </p>
                 <button className="btn btn-primary text-white text-center btn-sm rounded-pill"
                 onClick={() => {
                   dispatch(addItemToCart(result))
@@ -45,7 +45,7 @@ const Content = () => {
         </div>
         </div> 
             
-        <div className="row justify-content-center mt-sm-4  m-lg-5 mt-lg-0 p-lg-4 pt-lg-0 mb-lg-0">
+        <div className="row justify-content-center mt-sm-4 content-css mt-lg-0 p-lg-4 pt-lg-0 mb-lg-0">
         <h4> <span className="text-warning"> News </span> item </h4>
   
             <div className="row w-90 pb-1 pb-lg-0 p-5 p-lg-5 gap-sm-2 gap-lg-1 gap-md-2 justify-content-center "> 
@@ -57,7 +57,7 @@ const Content = () => {
               <div className="card-body mt-0">
               <img src={data.img} width="50" />            
                 <p className="mb-1 pt-3"> {data.name} </p>
-                <p className="text-custom mb-1 fw-bolder"> ${data.price}  </p>
+                <p className="text-custom mb-1 fw-bolder"> ${data.price}  <span className="text-muted small"> / pack </span>  </p>
                 <button className="btn btn-primary text-center btn-sm rounded-pill"
                 onClick={() => {
                   dispatch(addItemToCart(data))

@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarker} from 'react-icons/fa'
 const Footer = () => {
     return ( 
         <>
-        <div className="mt-5 bg-primary text-white p-5 footer mx-lg-auto"> 
+        <div className="mt-5 bg-dark text-white p-5 footer mx-lg-auto"> 
 
             <div className="row justify-content-center footer-item-left m-lg-0 float-sm-start">
             <p className="mb-lg-3 p-lg-0"> Biskuitku </p>

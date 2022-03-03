@@ -27,7 +27,8 @@
 }
 
 .footer {
-  height: 35vh;
+  height: 40vh;
+  width: 100%;
 }
 
 .btn-more {
@@ -37,6 +38,10 @@
 
 .hitam {
   color: black;
+}
+
+.content-css {
+  margin: auto;
 }
 
 /* .badgee { 
@@ -55,20 +60,22 @@
 
 @media screen and (max-width: 600px) {
   .footer {
-    height:55vh;
+    height:60vh;
     padding:0;
+    width: 100%;
   }
   .badgee {
     left: 20%;
   }
-  
+
 
 }
 
 @media screen and (max-width: 375px) {
   .footer {
-    height:65vh;
+    height:70vh;
     padding:0;
+    width: 100%;
   }
 
   .badgee {
@@ -90,12 +97,21 @@
     height: 40%;
   }
 
+  .content-css {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+  
   .footer {
     height:35vh;
     display: flex;
     justify-content: center;
     padding: 30px;
     margin-top: 40px;
+    width: 100%;
   }
 
   .footer-item-left {

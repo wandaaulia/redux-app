@@ -6,7 +6,7 @@ const ContentPopular = () => {
 
     return (
   
-        <div className="row mt-4 mt-lg-0 pt-lg-3 m-lg-5 pb-lg-3 justify-content-center">
+        <div className="row mt-4 mt-lg-0 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
         <h4> <span className="text-warning"> Popular </span> Cookies </h4>
         {
