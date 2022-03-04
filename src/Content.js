@@ -45,7 +45,7 @@ const Content = () => {
            
               return (
                 <div className="col-md col-6 col-sm col-lg pt-0 pb-md-0 pb-0 p-lg-2" key={id}> 
-                <div className="card shadow p-2 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 p-lg-1 p-sm-3 
+                <div className="card shadow p-1 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 p-lg-1 p-sm-2
                 rounded border-0 h-90 bg-white">
                 
                 
@@ -74,7 +74,7 @@ const Content = () => {
             { dataNewItem.map((data) => {
                 return (
                 <div className="col-md col-6 col-sm col-lg pt-0 pb-md-0 pb-0 p-lg-2" key={data.id}> 
-            <div className="card shadow p-2 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 bg-white p-lg-1 p-sm-3 rounded border-0 h-90 ">
+            <div className="card shadow p-1 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 bg-white p-lg-1 p-sm-3 rounded border-0 h-90 ">
               <div className="card-body mt-0">
               <img src={data.img} width="50" />            
                 <p className="mb-1 pt-3"> {data.name} </p>

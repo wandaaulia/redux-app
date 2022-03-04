@@ -165,7 +165,7 @@
   }
 
   .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     height:35vh;
     width: 100%;
