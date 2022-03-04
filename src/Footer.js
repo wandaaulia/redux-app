@@ -5,14 +5,14 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarker} from 'react-icons/fa'
 const Footer = () => {
     return ( 
         <>
-        <div className="mt-5 bg-dark text-white p-5 footer mx-lg-auto"> 
+        <div className="mt-5 bg-dark text-white p-5 p-md-4 footer pb-lg-0 mx-lg-auto"> 
 
-            <div className="row justify-content-center footer-item-left m-lg-0 float-sm-start">
+            <div className="row justify-content-center footer-item-left m-lg-0 m-md-0 p-md-0 float-sm-start">
             <p className="mb-lg-3 p-lg-0"> Biskuitku </p>
             <p className="text-wrap text-muted mt-lg-0">   The best cookies and tea in this country  </p>
             </div>
 
-            <div className="row float-sm-end footer-item-right m-lg-0 p-lg-0"> 
+            <div className="row float-sm-end footer-item-right m-lg-0 p-lg-0 mt-md-0 p-md-0"> 
             <div className="col col-12 col-lg justify-content-center"> 
                 <p className="text-center"> Information </p>
                 <ul className="text-muted list">  
@@ -23,7 +23,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-              <div className="col-12 col-lg mt-3 mt-lg-0 justify-content-center"> 
+              <div className="col-12 col-lg mt-3 mt-md-0 mt-lg-0 justify-content-center"> 
                 <p> Contact </p>
                 <ul className="text-muted list">  
                 <li> <FaMapMarker /> Pondok Bambu Street </li>

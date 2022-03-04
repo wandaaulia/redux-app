@@ -52,6 +52,10 @@
   cursor: pointer;
 }
 
+.show-detail:active {
+  background-color : black;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -106,7 +110,7 @@
 
   
   .footer {
-    height:35vh;
+    height:45vh;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -138,11 +142,11 @@
   }
 
   .cart-size {
-    width: 50%;
+    width: 80%;
   }
 
   .button-checkout {
-    width: 50%;
+    width: 80%;
   }
 
   .button-checkout-size {
@@ -150,7 +154,7 @@
   }
 
   .total-size {
-    width: 50%;
+    width: 80%;
   }
 
 }
@@ -160,20 +164,27 @@
     left: 35%;
   }
 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height:35vh;
+    width: 100%;
+  }
+
   .cart-size {
-    width: 60%;
+    width: 80%;
   }
 
   .button-checkout {
-    width: 60%;
+    width: 80%;
   }
 
   .button-checkout-size {
-    width: 30%;
+    width: 40%;
   }
 
   .total-size {
-    width: 60%;
+    width: 80%;
   }
 }
 
