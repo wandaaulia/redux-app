@@ -110,13 +110,15 @@
 
   
   .footer {
-    height:45vh;
+    height:55vh;
     display: flex;
     justify-content: center;
     padding: 30px;
+    padding-top: 40px;
     margin-top: 40px;
     width: 100%;
   }
+
 
   .footer-item-left {
       width: 35%;
@@ -164,10 +166,12 @@
     left: 35%;
   }
 
+ 
   .footer {
-    position: relative;
+    height:40vh;
+    padding: 30px;
+    padding-top: 40px;
     bottom: 0;
-    height:35vh;
     width: 100%;
   }
 

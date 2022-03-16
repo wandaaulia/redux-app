@@ -36,7 +36,7 @@ const NavbarApp = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav className="hitam">
-                    <Nav className="nav-link " onClick={handleHome} className="pointer">Home</Nav>
+                    <Nav className="nav-link pointer" onClick={handleHome}>Home</Nav>
                 </Nav>
                 </Navbar.Collapse>
                 

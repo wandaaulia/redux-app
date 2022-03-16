@@ -9,9 +9,9 @@ import Home from './Home';
 function App() {
   return (
   
-    <div className="App">
+    <div className="App p-0">
 
-    <div className='w-100'> 
+    <div className='w-100 style-cart-700'> 
     <NavbarApp />
 
     <Routes>
