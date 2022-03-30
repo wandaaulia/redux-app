@@ -29,10 +29,11 @@ const NavbarApp = () => {
         <>
          <Navbar bg="light" expand="lg" className="bg-transparent border border-bottom border-0">
             <Container>
-                <Navbar.Brand href="#home"> Biskuitku </Navbar.Brand>
-                <div className="position-relative badgee" onClick={handleCart}> 
+                <Navbar.Brand href="#home" className="style-header"> Biskuitku </Navbar.Brand>
+                <div className="position-relative badgee right-lg" onClick={handleCart}> 
                 <FaCartPlus size={18} className="pointer"/>
-                 <span className="badge pointer bg-warning position-absolute top-1 start-100 translate-middle rounded-pill"> {notif} </span>  </div> 
+                 <span className="badge pointer bg-warning position-absolute top-1 start-100 translate-middle rounded-pill"> {notif} </span> 
+                  </div> 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav className="hitam">

@@ -5,15 +5,14 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarker} from 'react-icons/fa'
 const Footer = () => {
     return ( 
         <>
-        <div className="mt-5 bg-dark text-white p-5 p-md-4 footer pb-lg-0 mx-lg-auto"> 
+        <div className="mt-5 px-xxl-5 px-md-5 gap-md-5 bg-dark text-white p-3 pt-4 mb-0 py-md-2 pt-lg-3 gap-xxl-5 pb-lg-4 px-md-1 mt-md-5  justify-content-md-center d-flex flex-column flex-md-row pb-lg-0"> 
 
-            <div className="row justify-content-center footer-item-left m-lg-0 m-md-0 p-md-0 float-sm-start">
-            <p className="mb-lg-3 p-lg-0"> Biskuitku </p>
+            <div className="p-md-3 flex-lg-fill flex-md-fill width-popular-cookies">
+            <p className="p-lg-0"> Biskuitku </p>
             <p className="text-wrap text-muted mt-lg-0">   The best cookies and tea in this country  </p>
             </div>
 
-            <div className="row float-sm-end footer-item-right m-lg-0 p-lg-0 mt-md-0 p-md-0"> 
-            <div className="col col-12 col-lg justify-content-center"> 
+            <div className="p-3 flex-lg-fill mx-xxl-2 mx-md-2 flex-md-fill width-popular-cookies"> 
                 <p className="text-center"> Information </p>
                 <ul className="text-muted list">  
                 <li> Terms of service </li>
@@ -23,7 +22,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-              <div className="col-12 col-lg mt-3 mt-md-0 mt-lg-0 justify-content-center"> 
+              <div className="p-3 flex-lg-fill flex-md-fill  width-popular-cookies"> 
                 <p> Contact </p>
                 <ul className="text-muted list">  
                 <li> <FaMapMarker /> Pondok Bambu Street </li>
@@ -31,7 +30,7 @@ const Footer = () => {
                   <li> <FaEnvelope /> biskuit@ku.com  </li>
                 </ul>
                 </div>
-            </div>
+          
              
         </div>
         </>

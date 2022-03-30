@@ -30,62 +30,62 @@ const Content = () => {
 
 
 
+
+
     return ( 
         <>
 
-   <div className="row mt-5 content-css p-sm-3 justify-content-center p-lg-4 mb-lg-0">
-            <h4> <span className="text-warning"> Best </span> seller </h4>
-
-          <div className="row w-90 pb-1 pb-lg-0 p-4 pt-lg-5 p-md-4 p-sm-4 p-lg-5 gap-sm-1 gap-md-2 gap-lg-1 justify-content-center ">     
+   <div className="row mt-5 width-content-xl mx-auto content-css p-sm-3 justify-content-center p-lg-4 mb-lg-0">
+            <h4 className="fs-2"> <span className="text-warning"> Best </span> seller </h4>
           
+
+          <div className=" d-flex flex-row flex-wrap gap-4 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5 gap-sm-1 justify-content-center align-lg-start">     
+        
       
           { dataBestItem.map((result) => {
 
             const {img, name, id, price} = result;
            
               return (
-                <div className="col-md col-6 col-sm col-lg pt-0 pb-md-0 pb-0 p-lg-2" key={id}> 
-                <div className="card shadow p-1 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 p-lg-1 p-sm-2
-                rounded border-0 h-90 bg-white">
+                <div className="card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={id}>
                 
                 
                 <div className="card-body mt-0">
-                <img src={img}  width="50" className="gambar-product"/>            
+                <img src={img}  width="50" className="gambar-product width-80-persen"/>            
                 <p className="mb-1 pt-3"> {name} </p>
                 <p className="text-custom mb-1 fw-bolder"> ${price} <span className="text-muted small"> / pcs </span>  </p>
-                <button className="btn btn-primary pointer text-white text-center btn-sm rounded-pill"
+                <button className="btn btn-primary mt-xl-3 pointer text-white text-center btn-sm rounded-pill"
                 onClick={() => {handleClick(result)}}> 
                   Add to cart
                 </button>
                 </div>
              
                 </div>
-                </div>
+    
+
+                
               )
           })}
         </div>
         </div> 
             
-        <div className="row justify-content-center mt-sm-4 mt-5 content-css mt-lg-0 p-sm-3 p-lg-4 pt-lg-0 mb-lg-0">
-        <h4> <span className="text-warning"> News </span> item </h4>
+        <div className="row width-content-xl mx-auto  justify-content-center mt-sm-4 mt-5 mb-5  content-css mt-lg-0 p-sm-3 p-lg-4 pt-lg-0 mb-lg-0">
+        <h4 className='fs-2'> <span className="text-warning"> News </span> item </h4>
   
-            <div className="row w-90 pb-1 pb-lg-0 p-4 pt-lg-5 p-md-4 p-sm-4 p-lg-5 gap-sm-1 gap-md-2 gap-lg-1 justify-content-center "> 
-            
+        <div className=" d-flex flex-row flex-wrap gap-4 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5 gap-sm-1 justify-content-center align-lg-start">                 
             { dataNewItem.map((data) => {
                 return (
-                <div className="col-md col-6 col-sm col-lg pt-0 pb-md-0 pb-0 p-lg-2" key={data.id}> 
-            <div className="card shadow p-1 pt-0 pb-0 pt-md-0 my-md-2 my-3 pb-md-0 mb-lg-5 m-sm-3 m-md-4 p-md-3 bg-white p-lg-1 p-sm-3 rounded border-0 h-90 ">
+                <div className="card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={data.id}>
               <div className="card-body mt-0">
               <img src={data.img} width="50" />            
                 <p className="mb-1 pt-3"> {data.name} </p>
                 <p className="text-custom mb-1 fw-bolder"> ${data.price}  <span className="text-muted small"> / pack </span>  </p>
-                <button className="btn btn-primary pointer text-center btn-sm rounded-pill"
+                <button className="btn btn-primary mt-xl-3 pointer text-center btn-sm rounded-pill"
                 onClick={() => {handleClick(data)}}> 
                   Add to cart
                 </button>
               </div>
               </div>
-            </div>
                 )
 
             })}

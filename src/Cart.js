@@ -4,6 +4,8 @@ import CartItem from './CartItem';
 import { getCartItems, removeAll, getLoading, setLoading} from './features/cart/cartSlice'
 import { useNavigate } from 'react-router-dom'
 
+import './App.css';
+
 const Cart = () => {
 
 
@@ -45,7 +47,7 @@ const Cart = () => {
 
 
     return (
-        <div className="container p-5 mt-5 mt-md-5  mt-lg-5 mb-5"> 
+        <div className="container p-5 mt-5 mt-md-5  mt-lg-5 mb-5 height-100"> 
 
         { loading ? 
         <>
@@ -78,8 +80,8 @@ const Cart = () => {
                 })
          
              }
-        <div className="row bg-light total-size"> 
-        <p className="text-start col-9 p-3"> Total </p>
+        <div className="row bg-light total-size w-100"> 
+        <p className="text-start col-9 p-3 "> Total </p>
         <p className="text-end fw-bold p-3 col"> ${total} </p>
          </div>
 
