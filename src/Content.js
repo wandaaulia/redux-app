@@ -39,7 +39,7 @@ const Content = () => {
             <h4 className="fs-2"> <span className="text-warning"> Best </span> seller </h4>
           
 
-          <div className=" d-flex flex-row flex-wrap gap-3 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
+          <div className=" d-flex flex-row flex-wrap gap-3 gap-md-3 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
         
       
           { dataBestItem.map((result) => {
@@ -47,7 +47,7 @@ const Content = () => {
             const {img, name, id, price} = result;
            
               return (
-                <div className="m-1 card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={id}>
+                <div className="m-1 m-md-0 card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={id}>
                 
                 
                 <div className="card-body mt-0">
