@@ -53,7 +53,7 @@ const ContentPopular = () => {
             <div className="mb-3 width-img-popular bg-primary">
                 <div className="mt-3 w-100 mx-auto"> 
                     <div>
-                    <img src={item.img} className="card-img-top gambar-popular h-50" />
+                    <img src={item.img} className="card-img-top gambar-popular h-25" />
                       </div>
                         <small className="text-muted text-wrap">
                         <a href={item.link} className="text-decoration-none text-reset text-small">
