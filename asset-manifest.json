@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/redux-app/static/css/main.69ad7b37.css",
-    "main.js": "/redux-app/static/js/main.f977fa04.js",
+    "main.js": "/redux-app/static/js/main.9d65b6bc.js",
     "static/media/cookies.svg": "/redux-app/static/media/cookies.533737b2a5619f879f5dfc5c80cca381.svg",
     "static/media/cookies-svgrepo-com.svg": "/redux-app/static/media/cookies-svgrepo-com.e7d3d6ef8048b1748c5e66b32be17907.svg",
     "index.html": "/redux-app/index.html",
     "main.69ad7b37.css.map": "/redux-app/static/css/main.69ad7b37.css.map",
-    "main.f977fa04.js.map": "/redux-app/static/js/main.f977fa04.js.map"
+    "main.9d65b6bc.js.map": "/redux-app/static/js/main.9d65b6bc.js.map"
   },
   "entrypoints": [
     "static/css/main.69ad7b37.css",
-    "static/js/main.f977fa04.js"
+    "static/js/main.9d65b6bc.js"
   ]
 }
