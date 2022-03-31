@@ -370,4 +370,8 @@
     width: 80%;
     height: 40%;
   }
+
+  .height-imgpopular {
+    height: 20vh;
+  }
  }

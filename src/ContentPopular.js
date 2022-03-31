@@ -42,7 +42,7 @@ const ContentPopular = () => {
   
         // <div className="row mt-4 mt-lg-3 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
-        <div className="row mt-4 mt-lg-3 px-4 px-xxl-5 px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
+        <div className="row mt-4 mt-lg-3 px-4 height-imgpopular px-xxl-5 px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
         <h4 className="fs-2"> <span className="text-warning"> Popular </span> Cookies </h4>
         <div className="mt-md-3 px-xxl-5 pt-xxl-5"> 
