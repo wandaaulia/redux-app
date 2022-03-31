@@ -347,7 +347,7 @@
   }
 
   .width-50-persen {
-    width: 10%;
+    width: 12%;
   }
 
   .width-img-popular {
@@ -367,11 +367,9 @@
   }
 
    .gambar-popular {
-    width: 60%;
-    height: 30%;
+    width: 50%;
+    height: 20%;
   }
 
-  .height-imgpopular {
-    height: 20vh;
-  }
+  
  }
