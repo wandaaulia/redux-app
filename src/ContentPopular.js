@@ -42,7 +42,7 @@ const ContentPopular = () => {
   
         // <div className="row mt-4 mt-lg-3 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
-        <div className="row mt-4 mt-lg-3 px-4 height-imgpopular px-xxl-5 px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
+        <div className="row mt-4 mt-lg-3 px-4 px-xxl-5 px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
         <h4 className="fs-2"> <span className="text-warning"> Popular </span> Cookies </h4>
         <div className="mt-md-3 px-xxl-5 pt-xxl-5"> 
@@ -50,7 +50,7 @@ const ContentPopular = () => {
             data.map((item) => {
                 return (
                    <div key={item.id} className="d-flex py-md-4 px-xxl-3 flex-column flex-md-row justify-content-lg-between ">
-            <div className="mb-3 width-img-popular">
+            <div className="mb-3 width-img-popular height-imgpopular">
                 <div className="mt-3 w-100 mx-auto"> 
                     <div>
                     <img src={item.img} className="card-img-top gambar-popular h-50" />
