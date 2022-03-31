@@ -39,7 +39,7 @@ const Content = () => {
             <h4 className="fs-2"> <span className="text-warning"> Best </span> seller </h4>
           
 
-          <div className=" d-flex flex-row flex-wrap gap-3 gap-md-3 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
+          <div className=" d-flex flex-row flex-wrap gap-3 gap-md-3 gap-lg-3 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
         
       
           { dataBestItem.map((result) => {
