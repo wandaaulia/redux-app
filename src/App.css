@@ -339,15 +339,15 @@
   }
   
   .font-textheader {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .font-buttonheader {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .width-50-persen {
-    width: 15%;
+    width: 13%;
   }
 
   .width-img-popular {
@@ -364,5 +364,10 @@
 
   .width-popular-cookies {
     width: 30%;
+  }
+
+   .gambar-popular {
+    width: 80%;
+    height: 40%;
   }
  }
