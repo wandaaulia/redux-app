@@ -76,6 +76,11 @@
   font-size : 30px;
 }
 
+.gambar-popular {
+    width: 55%;
+    height: 40%;
+  }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -202,7 +207,7 @@
 
   .gambar-popular {
     width: 80%;
-    height: auto;
+    height: 40%;
   }
   
 }
@@ -244,7 +249,7 @@
 
   .gambar-popular {
     width: 80%;
-    height: auto;
+    height: 40%;
   }
   .width-content-xl {
     width: 80%;

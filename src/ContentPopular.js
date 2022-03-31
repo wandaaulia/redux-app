@@ -62,7 +62,7 @@ const ContentPopular = () => {
                     </div>
                 </div>
 
-         <div className="mt-2 d-flex flex-column width-text-popular px-md-3 justify-content-md-center">
+         <div className="mt-2 d-flex flex-column width-text-popular px-md-3 mt-md-0 justify-content-md-center">
 
            <div className="mt-2 p-lg-0"> 
            <div className="d-flex flex-column gap-0">
