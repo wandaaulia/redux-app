@@ -47,7 +47,7 @@ const Content = () => {
             const {img, name, id, price} = result;
            
               return (
-                <div className="m-2 card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={id}>
+                <div className="m-1 card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={id}>
                 
                 
                 <div className="card-body mt-0">
