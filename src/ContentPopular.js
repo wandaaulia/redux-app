@@ -50,7 +50,7 @@ const ContentPopular = () => {
             data.map((item) => {
                 return (
                    <div key={item.id} className="d-flex py-md-4 px-xxl-3 bg-primary flex-column flex-md-row justify-content-lg-between ">
-            <div className="mb-3 width-img-popular">
+            <div className="mb-3 width-img-popular bg-warning">
                 <div className="mt-3 w-100 mx-auto"> 
                     <div>
                     <img src={item.img} className="card-img-top gambar-popular h-50" />
@@ -62,7 +62,7 @@ const ContentPopular = () => {
                     </div>
                 </div>
 
-         <div className="mt-2 d-flex bg-danger flex-column width-text-popular px-md-3 px-xxl-4 mt-md-0 justify-content-md-center">
+         <div className="mt-2 mx-xxl-4 d-flex bg-danger flex-column width-text-popular px-md-3 px-xxl-4 mt-md-0 justify-content-md-center">
 
            <div className="mt-2 p-lg-0"> 
            <div className="d-flex flex-column gap-0">
