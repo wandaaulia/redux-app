@@ -49,8 +49,8 @@ const ContentPopular = () => {
         {
             data.map((item) => {
                 return (
-                   <div key={item.id} className="d-flex px-xxl-3 flex-column flex-md-row justify-content-lg-between ">
-            <div className="mb-3 width-img-popular bg-primary h-75">
+                   <div key={item.id} className="d-flex py-md-4 px-xxl-3 flex-column flex-md-row justify-content-lg-between ">
+            <div className="mb-3 width-img-popular bg-primary">
                 <div className="mt-3 w-100 mx-auto"> 
                     <div>
                     <img src={item.img} className="card-img-top gambar-popular h-50" />
