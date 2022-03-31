@@ -42,14 +42,14 @@ const ContentPopular = () => {
   
         // <div className="row mt-4 mt-lg-3 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
-        <div className="row mt-4 mt-lg-3 px-4 px-xxl-5 px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
+        <div className="row mt-4 mt-lg-3 px-4  px-md-5 content-css pt-lg-3 mb-lg-5 pb-lg-3 justify-content-center">
 
         <h4 className="fs-2"> <span className="text-warning"> Popular </span> Cookies </h4>
-        <div className="mt-md-3 px-xxl-5 pt-xxl-5"> 
+        <div className="mt-md-3"> 
         {
             data.map((item) => {
                 return (
-                   <div key={item.id} className="d-flex py-md-4 px-xxl-3 bg-primary flex-column flex-md-row justify-content-lg-between ">
+                   <div key={item.id} className="d-flex py-md-4 px-lg-3 bg-primary flex-column flex-md-row justify-content-lg-between ">
             <div className="mb-3 width-img-popular bg-warning">
                 <div className="mt-3 w-100 mx-auto"> 
                     <div>
@@ -62,7 +62,7 @@ const ContentPopular = () => {
                     </div>
                 </div>
 
-         <div className="mt-2 mx-xxl-4 d-flex bg-danger flex-column width-text-popular px-md-3 px-xxl-4 mt-md-0 justify-content-md-center">
+         <div className="mt-2 mx-lg-4 d-flex bg-danger flex-column width-text-popular px-md-3 px-xxl-4 mt-md-0 justify-content-md-center">
 
            <div className="mt-2 p-lg-0"> 
            <div className="d-flex flex-column gap-0">
