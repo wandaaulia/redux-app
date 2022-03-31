@@ -39,7 +39,7 @@ const Content = () => {
             <h4 className="fs-2"> <span className="text-warning"> Best </span> seller </h4>
           
 
-          <div className="bg-primary d-flex flex-row flex-wrap gap-3 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
+          <div className=" d-flex flex-row flex-wrap gap-3 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">     
         
       
           { dataBestItem.map((result) => {
@@ -72,10 +72,10 @@ const Content = () => {
         <div className="row width-content-xl mx-auto  justify-content-center mt-sm-4 mt-5 mb-5  content-css mt-lg-0 p-sm-3 p-lg-4 pt-lg-0 mb-lg-0">
         <h4 className='fs-2'> <span className="text-warning"> News </span> item </h4>
   
-        <div className=" d-flex flex-row flex-wrap gap- gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">                 
+        <div className=" d-flex flex-row flex-wrap gap-3 gap-md-5 gap-lg-5 pb-1 width-xxl-persen pb-lg-5 p-3 pt-lg-5 p-md-4 p-sm-4 p-lg-5  justify-content-center align-lg-start">                 
             { dataNewItem.map((data) => {
                 return (
-                <div className="card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={data.id}>
+                <div className="m-1 card shadow p-3 pb-0 d-flex flex-column width-50-persen p-xl-2  rounded border-0 h-90 bg-white" key={data.id}>
               <div className="card-body mt-0">
               <img src={data.img} width="50" />            
                 <p className="mb-1 pt-3"> {data.name} </p>
